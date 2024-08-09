@@ -1,0 +1,61 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Josefin Sans", "Sans serif";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+main{
+    width: 100%;
+    height: 39.9rem;
+    background: #404040;
+    color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main h1{
+    width: 90%;
+    height: 5rem;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    background: rgb(14, 135, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contenedor{
+    width: 90%;
+    height: 4rem;
+}
+
+.Number-01, .Number-02{
+    width: 100%;
+    height: 3.6rem;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.2rem;
+}
+
+.num_01, .num_02{
+    margin: 0px;
+    padding: 0px;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    color: rgb(5, 127, 209);
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
