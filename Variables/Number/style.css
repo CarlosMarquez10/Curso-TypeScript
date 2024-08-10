@@ -1,61 +1,100 @@
-html{
-    width: 100vw;
-    height: 100vh;
-    font-family: "Josefin Sans", "Sans serif";
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-main{
-    width: 100%;
-    height: 39.9rem;
-    background: #404040;
-    color: white;
-    border-radius: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+:root {
+  --bg-title: rgb(14, 135, 216);
+  --bg-title-hover: rgb(5, 97, 158);
+  --font-size-tittle: 1.6rem;
+  --size-vent-first: 100%;
+  
 }
 
-main h1{
-    width: 90%;
-    height: 5rem;
-    padding: 0.5rem;
-    font-size: 1.3rem;
-    border-radius: 0.5rem;
-    background: rgb(14, 135, 216);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 16px;
+  font-family: "Josefin Sans", "Sans serif";
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-.Contenedor{
-    width: 90%;
-    height: 4rem;
+main {
+  width: var(--size-vent-first);
+  height: 39.9rem;
+  background: #404040;
+  color: white;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.Number-01, .Number-02{
-    width: 100%;
-    height: 3.6rem;
-    border: 1px solid grey;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0.2rem;
+main h1 {
+  width: 70%;
+  height: 5rem;
+  padding: 0.5rem;
+  font-size: var(--font-size-tittle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.num_01, .num_02{
-    margin: 0px;
-    padding: 0px;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.7rem;
-    border-radius: 50%;
-    color: rgb(5, 127, 209);
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  width: 95%;
+  height: 5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--bg-title);
+}
+
+header:hover {
+  background-color: var(--bg-title-hover);
+}
+
+header img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+.container_Numeros {
+  width: var(--size-vent-first);
+  height: 20rem;
+  margin: 0.9rem 0rem 0.5rem 0rem;
+  display: flex;
+  justify-content: center;  
+}
+
+.Contenedor {
+  width: 90%;
+  height: 4rem;
+}
+
+.Number-01,
+.Number-02 {
+  width: 100%;
+  height: 3.6rem;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+.num_01,
+.num_02 {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: var(--bg-title);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
